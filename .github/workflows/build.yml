@@ -8,9 +8,9 @@ on:
       - .github/workflows/build.yml
 
 env:
-  GHCR_IMAGE: ghcr.io/emgag/varnish
-  GHCR_USER: emgag-service
-  DOCKERHUB_IMAGE: emgag/varnish
+  GHCR_IMAGE: ghcr.io/runelangseid/varnish
+  GHCR_USER: runelangseid-service
+  DOCKERHUB_IMAGE: runelangseid/varnish
 
 jobs:
   build:
