@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - cicd
     paths:
       - .github/workflows/build.yml
 
